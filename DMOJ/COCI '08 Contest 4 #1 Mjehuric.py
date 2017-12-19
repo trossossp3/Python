@@ -5,14 +5,11 @@ def bubbleSort(alist):
                 temp = alist[i]
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
-            print(alist)
+                print(alist)
 
 alist = raw_input('').rstrip()
 alist = alist.split(' ')
 
 bubbleSort(alist)
-#print(alist)
-
-
 
 
