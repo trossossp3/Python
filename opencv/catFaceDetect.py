@@ -1,6 +1,6 @@
 import numpy as np
 import cv2 as cv
-face_cascade = cv.CascadeClassifier('Z:\Dev\Anaconda\pkgs\libopencv-3.4.1-h875b8b8_3\Library\etc\haarcascades\haarcascade_frontalcatface.xml')
+face_cascade = cv.CascadeClassifier("Z:\Dev\Anaconda\pkgs\libopencv-3.4.1-h875b8b8_3\Library\etc\haarcascades\haarcascade_frontalcatface.xml")
 #eye_cascade = cv.CascadeClassifier('Z:\Dev\Anaconda\pkgs\libopencv-3.4.1-h875b8b8_3\Library\etc\haarcascades\haarcascade_eye.xml')
 img = cv.imread('cat.jpg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
